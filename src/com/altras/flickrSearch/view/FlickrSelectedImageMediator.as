@@ -25,21 +25,11 @@ package com.altras.flickrSearch.view
 		
 		private var _loaded:Boolean = false;
 		
-<<<<<<< HEAD
 		override public function onRegister():void
 		{
 			trace("FlickrSelectedImageMediator onRegister");
 			view.title = "Loading Image";
 			
-=======
-		
-		
-		override public function onRegister():void
-		{
-			trace("FlickrSelectedImageMediator onRegister");
-			view.isPopUp = true;
-			view.title = "Loading Image";
->>>>>>> 8e9f6e7b2507b468fa1d8e38c790824e7f2547e0
 			view.bigImage.source = model.selectedThumb.bigImageSrc;
 	
 			eventMap.mapListener(view.clickButton,MouseEvent.CLICK,onLinkClick,MouseEvent);

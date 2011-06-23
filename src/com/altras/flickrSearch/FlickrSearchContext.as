@@ -31,10 +31,7 @@ package com.altras.flickrSearch
 			
 			mediatorMap.mapView(FlickrSearchView, FlickrSearchViewMediator);
 			mediatorMap.mapView(FlickrSelectedImage, FlickrSelectedImageMediator, null, false, false);
-<<<<<<< HEAD
 			
-=======
->>>>>>> 8e9f6e7b2507b468fa1d8e38c790824e7f2547e0
 
 		
 			commandMap.mapEvent(ImageSearchEvent.SEARCH, SearchCommand, ImageSearchEvent);

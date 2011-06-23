@@ -22,17 +22,11 @@ package com.altras.flickrSearch.controller
 			
 			model.selectedThumb = thumbSelectEvent._data as FlickrThumbVO;
 			
-<<<<<<< HEAD
 			//var selectedImage:FlickrSelectedImage = PopUpManager.createPopUp(contextView,FlickrSelectedImage, true)
 			//	as FlickrSelectedImage;
 			var selectedImage:FlickrSelectedImage  = new FlickrSelectedImage();
 			//selectedImage.bigImage.source = model.selectedThumb.bigImageSrc;
 			PopUpManager.addPopUp(selectedImage, contextView, true);
-=======
-			var selectedImage:FlickrSelectedImage = PopUpManager.createPopUp(contextView,FlickrSelectedImage, true)
-				as FlickrSelectedImage;
-			
->>>>>>> 8e9f6e7b2507b468fa1d8e38c790824e7f2547e0
 			
 			mediatorMap.createMediator(selectedImage);
 			PopUpManager.centerPopUp(selectedImage);
